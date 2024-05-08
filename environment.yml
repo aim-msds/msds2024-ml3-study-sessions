@@ -1,0 +1,23 @@
+name: msds2024-ml3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy==1.25.2
+  - pandas==2.0.3
+  - ipykernel
+  - python=3.10.12
+  - scikit-learn
+  - seaborn
+  - pip
+  - scipy
+  - notebook
+  - jupyterlab
+  - pip:
+    - jupyter-contrib-nbextensions
+    - ipywidgets
+    - scikit-image
+    - keras
+    - tensorflow[and-cuda]
+    - tensorflow-datasets
